@@ -18,8 +18,11 @@ public class Quiz {
 				userInput = correct;
 			else
 				System.out.println("Wrong.");
-		System.out.println("Question 2 : How many moons orbit Jupiter?\n1. 5\n2. 30\n3. ")
-		
+		System.out.println("Question 2 : How many moons orbit Jupiter?\n1. 5\n2. 30\n3. 79\n4. 1,000");
+		if(userInput == 3)
+			userInput = correct;
+		else
+			System.out.println("Wrong.");
 	}while(userInput == correct);
 	}
 }
