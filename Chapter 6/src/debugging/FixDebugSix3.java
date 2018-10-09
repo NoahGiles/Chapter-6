@@ -26,8 +26,8 @@ public static void main(String[] args)
  for(val = userNum; val > 0; --val)
  {
    System.out.print(val + "  ");
-   for(int x = 0; x  100000; ++x);
-    for(int y = 0y  10000; ++y);
+   for(int x = 0; x < 100000; ++x);
+    for(int y = 0; y < 10000; ++y);
     // Adjust these numbers for faster or slower performance
  }
  System.out.println("Blastoff!");
